@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/prefabs/box.tscn" id="1_pajub"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ifmwv"]
+size = Vector2(64, 64)
+
+[node name="Map" type="Node2D"]
+
+[node name="Box0" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(248, 248)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box1" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(576, 323)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box2" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(548, 161)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box3" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(332, 98)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box4" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(466, 496)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box5" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(805, 322)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box6" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(380, 230)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box7" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(325, 493)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box8" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(61, 501)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box9" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(252, 439)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box10" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(505, 502)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box11" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(635, 484)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box12" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(381, 434)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
+
+[node name="Box13" type="Sprite2D" parent="." instance=ExtResource("1_pajub")]
+position = Vector2(231, 389)
+texture = SubResource("PlaceholderTexture2D_ifmwv")
